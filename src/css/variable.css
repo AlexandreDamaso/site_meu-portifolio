@@ -1,4 +1,5 @@
-:root, :root[data-theme='dark'] {
+:root,
+:root[data-theme='dark'] {
    --primary-color: #F0F0F0;
    --primary-bg-color: #111217;
    --secondary-bg-color: #28292E;
@@ -9,7 +10,7 @@
    --link-color: #9A9A9C;
    --icon-color: #C7C8C9;
 }
- 
+
 :root[data-theme='light'] {
    --primary-color: #0B0B0F;
    --primary-bg-color: #E9E9E9;

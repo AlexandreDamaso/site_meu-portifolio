@@ -25,7 +25,7 @@
    font-size: 1.5rem;
    color: var(--primary-color);
    cursor: pointer;
-   transition: ease-in-out .4s;
+   transition: 1s ease-in-out;
 }
 
 .menu {
@@ -408,8 +408,6 @@ footer p {
    padding: 1rem;
 }
 
-
-
 @media (min-width: 768px) {
    .header {
       position: fixed;
@@ -585,5 +583,4 @@ footer p {
    .about {
       padding: 10rem 15rem 4rem;
    }
-
 }

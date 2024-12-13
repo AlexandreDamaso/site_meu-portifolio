@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-
-
 html[data-theme='light'] .brand__logo {
    filter: invert(1);
- }
- 
- html[data-theme='light'] .technologies__logo {
+}
+
+html[data-theme='light'] .technologies__logo {
    filter: invert(80%);
- }
- 
- * {
+}
+
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -19,27 +17,27 @@ html[data-theme='light'] .brand__logo {
    list-style: none;
    scrollbar-width: thin;
    scrollbar-color: var(--secondary-bg-color) transparent;
- }
+}
 
 body {
    background: var(--primary-bg-color);
    font-family: "Inter", sans-serif;
    color: var(--text-color);
+   transition: 1s ease-in-out;
 }
 
 ::-webkit-scrollbar {
    width: 0.5rem;
- }
- 
- ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
    background-color: transparent;
- }
- 
- ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
    background: var(--secondary-bg-color);
    border-radius: 50rem;
- }
- 
+}
 
 a {
    text-decoration: none;
